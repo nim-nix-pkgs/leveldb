@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-leveldb-0_4_1.flake = false;
+  inputs.src-leveldb-0_4_1.ref   = "refs/tags/0.4.1";
   inputs.src-leveldb-0_4_1.owner = "zielmicha";
-  inputs.src-leveldb-0_4_1.ref   = "0_4_1";
   inputs.src-leveldb-0_4_1.repo  = "leveldb.nim";
   inputs.src-leveldb-0_4_1.type  = "github";
   
