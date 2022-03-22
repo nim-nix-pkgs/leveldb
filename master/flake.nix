@@ -1,5 +1,5 @@
 {
-  description = ''LevelDB bindings'';
+  description = ''LevelDB wrapper for Nim'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,7 +9,7 @@
   
   inputs.src-leveldb-master.flake = false;
   inputs.src-leveldb-master.owner = "zielmicha";
-  inputs.src-leveldb-master.ref   = "refs/heads/master";
+  inputs.src-leveldb-master.ref   = "master";
   inputs.src-leveldb-master.repo  = "leveldb.nim";
   inputs.src-leveldb-master.type  = "github";
   
