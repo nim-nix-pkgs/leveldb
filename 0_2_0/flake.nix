@@ -11,7 +11,6 @@
   inputs.src-leveldb-0_2_0.ref   = "refs/tags/0.2.0";
   inputs.src-leveldb-0_2_0.owner = "zielmicha";
   inputs.src-leveldb-0_2_0.repo  = "leveldb.nim";
-  inputs.src-leveldb-0_2_0.dir   = "";
   inputs.src-leveldb-0_2_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
