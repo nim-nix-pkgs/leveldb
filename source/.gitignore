@@ -1,0 +1,10 @@
+nimcache/
+/test.db/
+/leveldb.e
+tests/packagetest/packagetest
+src/leveldb
+tests/test
+src/htmldocs/
+leveldbtool
+*.html
+*.css
